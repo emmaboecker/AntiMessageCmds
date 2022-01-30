@@ -4,7 +4,7 @@ Use this Plugin to send your bot's users a message when they try to use your old
 
 # Setup
 
-1. Add `antimessagecmds.mikbot.stckoverflw.net` to your `PLUGIN_REPOSITORIES` environment variable
+1. Add `https://antimessagecmds.mikbot.stckoverflw.net` to your `PLUGIN_REPOSITORIES` environment variable
 2. Add `antimessagecmds` to your `DOWNLOAD_PLUGINS` environment variable
 3. Add `MESSAGE_REGEX` to your environment variables with the following value:
    1. `PREFIX(COMMAND)(.*)` (Replace PREFIX and COMMAND with your old message-command prefix and a `|` seperated list of commands the bot should react to, or just one command)
