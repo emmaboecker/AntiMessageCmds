@@ -15,7 +15,7 @@ ktlint {
 }
 
 group = "net.stckoverflw"
-version = "1.0.2"
+version = "1.0.3"
 
 repositories {
     mavenCentral()
@@ -66,6 +66,8 @@ tasks {
     installBot {
         botVersion.set("2.1.0-SNAPSHOT")
     }
+
+    buildRepository
 
     pluginPublishing {
         repositoryUrl.set("https://antimessagecmds.mikbot.stckoverflw.net")
