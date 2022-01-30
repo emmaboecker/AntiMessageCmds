@@ -67,8 +67,6 @@ tasks {
         botVersion.set("2.1.0-SNAPSHOT")
     }
 
-    buildRepository
-
     pluginPublishing {
         repositoryUrl.set("https://antimessagecmds.mikbot.stckoverflw.net")
         targetDirectory.set(rootProject.file("ci-repo").toPath())
