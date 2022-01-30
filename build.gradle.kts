@@ -15,7 +15,7 @@ ktlint {
 }
 
 group = "net.stckoverflw"
-version = "1.0.3"
+version = "1.0.4"
 
 repositories {
     mavenCentral()
