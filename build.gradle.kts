@@ -15,17 +15,18 @@ ktlint {
 }
 
 group = "net.stckoverflw"
-version = "1.0.4"
+version = "1.0.5"
 
 repositories {
     mavenCentral()
     maven("https://schlaubi.jfrog.io/artifactory/mikbot/")
     maven("https://schlaubi.jfrog.io/artifactory/envconf/")
     maven("https://maven.kotlindiscord.com/repository/maven-public/")
+    maven("https://oss.sonatype.org/content/repositories/snapshots")
 }
 
 dependencies {
-    compileOnly("dev.schlaubi:mikbot-api:2.1.0-SNAPSHOT")
+    compileOnly("dev.schlaubi:mikbot-api:2.3.1-SNAPSHOT")
     ksp("dev.schlaubi:mikbot-plugin-processor:1.0.0")
 }
 
@@ -64,7 +65,7 @@ tasks {
     }
 
     installBot {
-        botVersion.set("2.1.0-SNAPSHOT")
+        botVersion.set("2.3.1-SNAPSHOT")
     }
 
     pluginPublishing {
