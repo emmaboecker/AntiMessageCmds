@@ -7,7 +7,7 @@ plugins {
     id("com.google.devtools.ksp") version "1.7.20-1.0.6"
     id("dev.schlaubi.mikbot.gradle-plugin") version "1.4.1"
 
-    id("org.jlleitschuh.gradle.ktlint") version "10.2.0"
+    id("org.jlleitschuh.gradle.ktlint") version "10.3.0"
 }
 
 ktlint {
