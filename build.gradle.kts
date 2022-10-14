@@ -27,7 +27,7 @@ repositories {
 
 dependencies {
     compileOnly("dev.schlaubi:mikbot-api:2.3.1-SNAPSHOT")
-    ksp("dev.schlaubi:mikbot-plugin-processor:1.1.1")
+    ksp("dev.schlaubi:mikbot-plugin-processor:2.3.0")
 }
 
 mikbotPlugin {
