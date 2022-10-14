@@ -4,7 +4,7 @@ import java.util.Locale
 plugins {
     kotlin("jvm") version "1.6.10"
     kotlin("plugin.serialization") version "1.6.10"
-    id("com.google.devtools.ksp") version "1.7.20-1.0.6"
+    id("com.google.devtools.ksp") version "1.7.20-1.0.7"
     id("dev.schlaubi.mikbot.gradle-plugin") version "2.6.3"
 
     id("org.jlleitschuh.gradle.ktlint") version "11.0.0"
