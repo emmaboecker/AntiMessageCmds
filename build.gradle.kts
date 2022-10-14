@@ -3,7 +3,7 @@ import java.util.Locale
 
 plugins {
     kotlin("jvm") version "1.6.10"
-    kotlin("plugin.serialization") version "1.6.10"
+    kotlin("plugin.serialization") version "1.7.20"
     id("com.google.devtools.ksp") version "1.7.20-1.0.7"
     id("dev.schlaubi.mikbot.gradle-plugin") version "2.6.3"
 
