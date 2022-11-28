@@ -2,8 +2,8 @@ import dev.schlaubi.mikbot.gradle.GenerateDefaultTranslationBundleTask
 import java.util.Locale
 
 plugins {
-    kotlin("jvm") version "1.7.20"
-    kotlin("plugin.serialization") version "1.7.20"
+    kotlin("jvm") version "1.7.22"
+    kotlin("plugin.serialization") version "1.7.22"
     id("com.google.devtools.ksp") version "1.7.20-1.0.7"
     id("dev.schlaubi.mikbot.gradle-plugin") version "2.6.3"
 
